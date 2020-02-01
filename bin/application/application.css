@@ -1,0 +1,17 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.my-button {
+    -fx-background-color:
+        linear-gradient(yellow, orange);
+    -fx-font-size:14px;
+    -fx-padding: 5 20 5 20;
+}
+
+.my-button:hover {
+    -fx-background-color:
+        linear-gradient(orange, yellow);
+        -fx-scale-y: 1.05;
+        -fx-scale-x: 1.05;
+        -fx-cursor: hand;
+        -fx-font-weight: bold;
+}
